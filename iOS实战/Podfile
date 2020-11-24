@@ -1,0 +1,6 @@
+platform :ios,'9.0'
+target 'iOS实战' do
+pod 'Masonry', '~> 1.1.0'
+pod 'AFNetworking', '~> 4.0.1'
+pod 'MJRefresh', '~> 3.5.0'
+end
