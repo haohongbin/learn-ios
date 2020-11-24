@@ -1,0 +1,7 @@
+platform :ios,'9.0'
+target '第六章' do
+pod 'Masonry', '~> 1.1.0'
+pod 'AFNetworking', '~> 4.0.1'
+pod 'MJRefresh', '~> 3.5.0'
+pod 'FMDB', '~> 2.7.5'
+end

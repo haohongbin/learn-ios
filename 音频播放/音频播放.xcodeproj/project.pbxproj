@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A07118B804C979DAF0B09E6 /* libPods-音频播放.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9336D577A37E20DF132506 /* libPods-音频播放.a */; };
+		E372C28B25652B060059F908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E372C28A25652B060059F908 /* AppDelegate.m */; };
+		E372C28E25652B060059F908 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E372C28D25652B060059F908 /* SceneDelegate.m */; };
+		E372C29125652B060059F908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E372C29025652B060059F908 /* ViewController.m */; };
+		E372C29425652B060059F908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E372C29225652B060059F908 /* Main.storyboard */; };
+		E372C29625652B080059F908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E372C29525652B080059F908 /* Assets.xcassets */; };
+		E372C29925652B080059F908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E372C29725652B080059F908 /* LaunchScreen.storyboard */; };
+		E372C29C25652B080059F908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E372C29B25652B080059F908 /* main.m */; };
+		E372C2A625652B090059F908 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E372C2A525652B090059F908 /* ____Tests.m */; };
+		E372C2B125652B090059F908 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E372C2B025652B090059F908 /* ____UITests.m */; };
+		E372C2BF25652FCE0059F908 /* testMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E372C2BE25652FCE0059F908 /* testMusic.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E372C2A225652B080059F908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E372C27E25652B060059F908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E372C28525652B060059F908;
+			remoteInfo = "音频播放";
+		};
+		E372C2AD25652B090059F908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E372C27E25652B060059F908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E372C28525652B060059F908;
+			remoteInfo = "音频播放";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A902C32917AC804B1DC7B3A /* Pods-音频播放.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频播放.debug.xcconfig"; path = "Target Support Files/Pods-音频播放/Pods-音频播放.debug.xcconfig"; sourceTree = "<group>"; };
+		4F9336D577A37E20DF132506 /* libPods-音频播放.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音频播放.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB359021372B7FA8C06BEF28 /* Pods-音频播放.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音频播放.release.xcconfig"; path = "Target Support Files/Pods-音频播放/Pods-音频播放.release.xcconfig"; sourceTree = "<group>"; };
+		E372C28625652B060059F908 /* 音频播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音频播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E372C28925652B060059F908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E372C28A25652B060059F908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E372C28C25652B060059F908 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E372C28D25652B060059F908 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E372C28F25652B060059F908 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E372C29025652B060059F908 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E372C29325652B060059F908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E372C29525652B080059F908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E372C29825652B080059F908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E372C29A25652B080059F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E372C29B25652B080059F908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E372C2A125652B080059F908 /* 音频播放Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频播放Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E372C2A525652B090059F908 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		E372C2A725652B090059F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E372C2AC25652B090059F908 /* 音频播放UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音频播放UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E372C2B025652B090059F908 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		E372C2B225652B090059F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E372C2BE25652FCE0059F908 /* testMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = testMusic.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E372C28325652B060059F908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A07118B804C979DAF0B09E6 /* libPods-音频播放.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E372C29E25652B080059F908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E372C2A925652B090059F908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A1CE6318DF9FC8BCF820D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F9336D577A37E20DF132506 /* libPods-音频播放.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AA63CAD6BFB63DD1A7FD4BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A902C32917AC804B1DC7B3A /* Pods-音频播放.debug.xcconfig */,
+				DB359021372B7FA8C06BEF28 /* Pods-音频播放.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E372C27D25652B060059F908 = {
+			isa = PBXGroup;
+			children = (
+				E372C28825652B060059F908 /* 音频播放 */,
+				E372C2A425652B090059F908 /* 音频播放Tests */,
+				E372C2AF25652B090059F908 /* 音频播放UITests */,
+				E372C28725652B060059F908 /* Products */,
+				4AA63CAD6BFB63DD1A7FD4BC /* Pods */,
+				14A1CE6318DF9FC8BCF820D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E372C28725652B060059F908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E372C28625652B060059F908 /* 音频播放.app */,
+				E372C2A125652B080059F908 /* 音频播放Tests.xctest */,
+				E372C2AC25652B090059F908 /* 音频播放UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E372C28825652B060059F908 /* 音频播放 */ = {
+			isa = PBXGroup;
+			children = (
+				E372C2BE25652FCE0059F908 /* testMusic.mp3 */,
+				E372C28925652B060059F908 /* AppDelegate.h */,
+				E372C28A25652B060059F908 /* AppDelegate.m */,
+				E372C28C25652B060059F908 /* SceneDelegate.h */,
+				E372C28D25652B060059F908 /* SceneDelegate.m */,
+				E372C28F25652B060059F908 /* ViewController.h */,
+				E372C29025652B060059F908 /* ViewController.m */,
+				E372C29225652B060059F908 /* Main.storyboard */,
+				E372C29525652B080059F908 /* Assets.xcassets */,
+				E372C29725652B080059F908 /* LaunchScreen.storyboard */,
+				E372C29A25652B080059F908 /* Info.plist */,
+				E372C29B25652B080059F908 /* main.m */,
+			);
+			path = "音频播放";
+			sourceTree = "<group>";
+		};
+		E372C2A425652B090059F908 /* 音频播放Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E372C2A525652B090059F908 /* ____Tests.m */,
+				E372C2A725652B090059F908 /* Info.plist */,
+			);
+			path = "音频播放Tests";
+			sourceTree = "<group>";
+		};
+		E372C2AF25652B090059F908 /* 音频播放UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E372C2B025652B090059F908 /* ____UITests.m */,
+				E372C2B225652B090059F908 /* Info.plist */,
+			);
+			path = "音频播放UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E372C28525652B060059F908 /* 音频播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E372C2B525652B090059F908 /* Build configuration list for PBXNativeTarget "音频播放" */;
+			buildPhases = (
+				431F26782EB8F918052C41AF /* [CP] Check Pods Manifest.lock */,
+				E372C28225652B060059F908 /* Sources */,
+				E372C28325652B060059F908 /* Frameworks */,
+				E372C28425652B060059F908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "音频播放";
+			productName = "音频播放";
+			productReference = E372C28625652B060059F908 /* 音频播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E372C2A025652B080059F908 /* 音频播放Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E372C2B825652B090059F908 /* Build configuration list for PBXNativeTarget "音频播放Tests" */;
+			buildPhases = (
+				E372C29D25652B080059F908 /* Sources */,
+				E372C29E25652B080059F908 /* Frameworks */,
+				E372C29F25652B080059F908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E372C2A325652B080059F908 /* PBXTargetDependency */,
+			);
+			name = "音频播放Tests";
+			productName = "音频播放Tests";
+			productReference = E372C2A125652B080059F908 /* 音频播放Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E372C2AB25652B090059F908 /* 音频播放UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E372C2BB25652B090059F908 /* Build configuration list for PBXNativeTarget "音频播放UITests" */;
+			buildPhases = (
+				E372C2A825652B090059F908 /* Sources */,
+				E372C2A925652B090059F908 /* Frameworks */,
+				E372C2AA25652B090059F908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E372C2AE25652B090059F908 /* PBXTargetDependency */,
+			);
+			name = "音频播放UITests";
+			productName = "音频播放UITests";
+			productReference = E372C2AC25652B090059F908 /* 音频播放UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E372C27E25652B060059F908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = edz;
+				TargetAttributes = {
+					E372C28525652B060059F908 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E372C2A025652B080059F908 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E372C28525652B060059F908;
+					};
+					E372C2AB25652B090059F908 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E372C28525652B060059F908;
+					};
+				};
+			};
+			buildConfigurationList = E372C28125652B060059F908 /* Build configuration list for PBXProject "音频播放" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E372C27D25652B060059F908;
+			productRefGroup = E372C28725652B060059F908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E372C28525652B060059F908 /* 音频播放 */,
+				E372C2A025652B080059F908 /* 音频播放Tests */,
+				E372C2AB25652B090059F908 /* 音频播放UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E372C28425652B060059F908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372C2BF25652FCE0059F908 /* testMusic.mp3 in Resources */,
+				E372C29925652B080059F908 /* LaunchScreen.storyboard in Resources */,
+				E372C29625652B080059F908 /* Assets.xcassets in Resources */,
+				E372C29425652B060059F908 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E372C29F25652B080059F908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E372C2AA25652B090059F908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		431F26782EB8F918052C41AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-音频播放-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E372C28225652B060059F908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372C29125652B060059F908 /* ViewController.m in Sources */,
+				E372C28B25652B060059F908 /* AppDelegate.m in Sources */,
+				E372C29C25652B080059F908 /* main.m in Sources */,
+				E372C28E25652B060059F908 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E372C29D25652B080059F908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372C2A625652B090059F908 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E372C2A825652B090059F908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E372C2B125652B090059F908 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E372C2A325652B080059F908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E372C28525652B060059F908 /* 音频播放 */;
+			targetProxy = E372C2A225652B080059F908 /* PBXContainerItemProxy */;
+		};
+		E372C2AE25652B090059F908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E372C28525652B060059F908 /* 音频播放 */;
+			targetProxy = E372C2AD25652B090059F908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E372C29225652B060059F908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E372C29325652B060059F908 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E372C29725652B080059F908 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E372C29825652B080059F908 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E372C2B325652B090059F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E372C2B425652B090059F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E372C2B625652B090059F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A902C32917AC804B1DC7B3A /* Pods-音频播放.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WG7PLUDH8;
+				INFOPLIST_FILE = "音频播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kpl.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E372C2B725652B090059F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB359021372B7FA8C06BEF28 /* Pods-音频播放.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WG7PLUDH8;
+				INFOPLIST_FILE = "音频播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kpl.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E372C2B925652B090059F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WG7PLUDH8;
+				INFOPLIST_FILE = "音频播放Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kpl.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音频播放.app/音频播放";
+			};
+			name = Debug;
+		};
+		E372C2BA25652B090059F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WG7PLUDH8;
+				INFOPLIST_FILE = "音频播放Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kpl.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/音频播放.app/音频播放";
+			};
+			name = Release;
+		};
+		E372C2BC25652B090059F908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WG7PLUDH8;
+				INFOPLIST_FILE = "音频播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kpl.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "音频播放";
+			};
+			name = Debug;
+		};
+		E372C2BD25652B090059F908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WG7PLUDH8;
+				INFOPLIST_FILE = "音频播放UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kpl.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "音频播放";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E372C28125652B060059F908 /* Build configuration list for PBXProject "音频播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372C2B325652B090059F908 /* Debug */,
+				E372C2B425652B090059F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E372C2B525652B090059F908 /* Build configuration list for PBXNativeTarget "音频播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372C2B625652B090059F908 /* Debug */,
+				E372C2B725652B090059F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E372C2B825652B090059F908 /* Build configuration list for PBXNativeTarget "音频播放Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372C2B925652B090059F908 /* Debug */,
+				E372C2BA25652B090059F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E372C2BB25652B090059F908 /* Build configuration list for PBXNativeTarget "音频播放UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E372C2BC25652B090059F908 /* Debug */,
+				E372C2BD25652B090059F908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E372C27E25652B060059F908 /* Project object */;
+}

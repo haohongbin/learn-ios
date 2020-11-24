@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="118" id="KGk-i7-Jjw" customClass="TestCellWihtXIB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_image" translatesAutoresizingMaskIntoConstraints="NO" id="xeq-j8-TVj">
+                        <rect key="frame" x="20" y="19" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="4eQ-he-Odu"/>
+                            <constraint firstAttribute="height" constant="80" id="At8-Qw-SBu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是XIB的title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGo-b3-Sfy">
+                        <rect key="frame" x="108" y="19" width="107" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="107" id="g0g-cC-ENd"/>
+                            <constraint firstAttribute="height" constant="21" id="xjK-Pu-YZD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是XIB的子title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnF-Wa-FfO">
+                        <rect key="frame" x="108" y="78" width="124" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Qoj-R3-dsg"/>
+                            <constraint firstAttribute="width" constant="124" id="sFJ-u7-Bra"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="XnF-Wa-FfO" secondAttribute="bottom" constant="8" id="23X-Oi-Ys9"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XnF-Wa-FfO" secondAttribute="trailing" constant="32" id="3yg-yj-CzB"/>
+                    <constraint firstItem="XnF-Wa-FfO" firstAttribute="leading" secondItem="PGo-b3-Sfy" secondAttribute="leading" id="ANf-Yb-2aE"/>
+                    <constraint firstItem="xeq-j8-TVj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="E1x-Xh-I91"/>
+                    <constraint firstItem="PGo-b3-Sfy" firstAttribute="top" secondItem="xeq-j8-TVj" secondAttribute="top" id="J7g-ZM-1g5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="XnF-Wa-FfO" secondAttribute="bottom" constant="8" id="JPF-7E-mgq"/>
+                    <constraint firstAttribute="bottom" secondItem="xeq-j8-TVj" secondAttribute="bottom" constant="19" id="aPk-5J-q2J"/>
+                    <constraint firstItem="XnF-Wa-FfO" firstAttribute="bottom" secondItem="xeq-j8-TVj" secondAttribute="bottom" id="bAP-T2-Fzn"/>
+                    <constraint firstItem="xeq-j8-TVj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="xRN-LZ-CiL"/>
+                    <constraint firstItem="PGo-b3-Sfy" firstAttribute="leading" secondItem="xeq-j8-TVj" secondAttribute="trailing" constant="8" id="yXd-fN-8U2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="subTestTitleLabel" destination="XnF-Wa-FfO" id="xkl-7o-o1e"/>
+                <outlet property="testTitleLabel" destination="PGo-b3-Sfy" id="xVH-LR-7px"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="92.410714285714278"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="test_image" width="350" height="116.5"/>
+    </resources>
+</document>
