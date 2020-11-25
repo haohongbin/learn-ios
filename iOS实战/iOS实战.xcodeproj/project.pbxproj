@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,14 @@
 		E33E26F4256CEA64004FD0E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E26F3256CEA64004FD0E5 /* main.m */; };
 		E33E26FE256CEA65004FD0E5 /* iOS__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E26FD256CEA65004FD0E5 /* iOS__Tests.m */; };
 		E33E2709256CEA65004FD0E5 /* iOS__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E2708256CEA65004FD0E5 /* iOS__UITests.m */; };
+		E33E2718256CFDBE004FD0E5 /* ViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E2717256CFDBE004FD0E5 /* ViewControllerVM.m */; };
+		E33E271C256D00E0004FD0E5 /* BannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E271B256D00E0004FD0E5 /* BannerCell.m */; };
+		E33E271F256D010C004FD0E5 /* FunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E271E256D010C004FD0E5 /* FunctionCell.m */; };
+		E33E2722256D0166004FD0E5 /* FunctionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E2721256D0166004FD0E5 /* FunctionItemCell.m */; };
+		E33E2725256D019E004FD0E5 /* HotCourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E2724256D019E004FD0E5 /* HotCourseCell.m */; };
+		E33E2728256D01EF004FD0E5 /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E2727256D01EF004FD0E5 /* ActivityCell.m */; };
+		E33E272B256D0206004FD0E5 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E272A256D0206004FD0E5 /* NewsCell.m */; };
+		E33E2733256D2E31004FD0E5 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33E2732256D2E31004FD0E5 /* HeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,22 @@
 		E33E2704256CEA65004FD0E5 /* iOS实战UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS实战UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33E2708256CEA65004FD0E5 /* iOS__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS__UITests.m; sourceTree = "<group>"; };
 		E33E270A256CEA65004FD0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33E2716256CFDBE004FD0E5 /* ViewControllerVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerVM.h; sourceTree = "<group>"; };
+		E33E2717256CFDBE004FD0E5 /* ViewControllerVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerVM.m; sourceTree = "<group>"; };
+		E33E271A256D00E0004FD0E5 /* BannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerCell.h; sourceTree = "<group>"; };
+		E33E271B256D00E0004FD0E5 /* BannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerCell.m; sourceTree = "<group>"; };
+		E33E271D256D010C004FD0E5 /* FunctionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionCell.h; sourceTree = "<group>"; };
+		E33E271E256D010C004FD0E5 /* FunctionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionCell.m; sourceTree = "<group>"; };
+		E33E2720256D0166004FD0E5 /* FunctionItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionItemCell.h; sourceTree = "<group>"; };
+		E33E2721256D0166004FD0E5 /* FunctionItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionItemCell.m; sourceTree = "<group>"; };
+		E33E2723256D019E004FD0E5 /* HotCourseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotCourseCell.h; sourceTree = "<group>"; };
+		E33E2724256D019E004FD0E5 /* HotCourseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotCourseCell.m; sourceTree = "<group>"; };
+		E33E2726256D01EF004FD0E5 /* ActivityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		E33E2727256D01EF004FD0E5 /* ActivityCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
+		E33E2729256D0206004FD0E5 /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		E33E272A256D0206004FD0E5 /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		E33E2731256D2E31004FD0E5 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		E33E2732256D2E31004FD0E5 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		E53C90664BBBCDD58BB8C555 /* libPods-iOS实战.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS实战.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E624052A5BC13A6D42DEFF8B /* Pods-iOS实战.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS实战.release.xcconfig"; path = "Target Support Files/Pods-iOS实战/Pods-iOS实战.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +116,6 @@
 				9999A6CC8AAA31AFFD179FA5 /* Pods-iOS实战.debug.xcconfig */,
 				E624052A5BC13A6D42DEFF8B /* Pods-iOS实战.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,6 +152,9 @@
 		E33E26E0256CEA63004FD0E5 /* iOS实战 */ = {
 			isa = PBXGroup;
 			children = (
+				E33E2730256D2E12004FD0E5 /* View */,
+				E33E272C256D11A8004FD0E5 /* Model */,
+				E33E2719256D0098004FD0E5 /* Cell */,
 				E33E26E1256CEA63004FD0E5 /* AppDelegate.h */,
 				E33E26E2256CEA63004FD0E5 /* AppDelegate.m */,
 				E33E26E4256CEA63004FD0E5 /* SceneDelegate.h */,
@@ -140,6 +166,8 @@
 				E33E26EF256CEA64004FD0E5 /* LaunchScreen.storyboard */,
 				E33E26F2256CEA64004FD0E5 /* Info.plist */,
 				E33E26F3256CEA64004FD0E5 /* main.m */,
+				E33E2716256CFDBE004FD0E5 /* ViewControllerVM.h */,
+				E33E2717256CFDBE004FD0E5 /* ViewControllerVM.m */,
 			);
 			path = "iOS实战";
 			sourceTree = "<group>";
@@ -160,6 +188,41 @@
 				E33E270A256CEA65004FD0E5 /* Info.plist */,
 			);
 			path = "iOS实战UITests";
+			sourceTree = "<group>";
+		};
+		E33E2719256D0098004FD0E5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E33E271A256D00E0004FD0E5 /* BannerCell.h */,
+				E33E271B256D00E0004FD0E5 /* BannerCell.m */,
+				E33E271D256D010C004FD0E5 /* FunctionCell.h */,
+				E33E271E256D010C004FD0E5 /* FunctionCell.m */,
+				E33E2720256D0166004FD0E5 /* FunctionItemCell.h */,
+				E33E2721256D0166004FD0E5 /* FunctionItemCell.m */,
+				E33E2723256D019E004FD0E5 /* HotCourseCell.h */,
+				E33E2724256D019E004FD0E5 /* HotCourseCell.m */,
+				E33E2726256D01EF004FD0E5 /* ActivityCell.h */,
+				E33E2727256D01EF004FD0E5 /* ActivityCell.m */,
+				E33E2729256D0206004FD0E5 /* NewsCell.h */,
+				E33E272A256D0206004FD0E5 /* NewsCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E33E272C256D11A8004FD0E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E33E2730256D2E12004FD0E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E33E2731256D2E31004FD0E5 /* HeaderView.h */,
+				E33E2732256D2E31004FD0E5 /* HeaderView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,10 +399,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33E2733256D2E31004FD0E5 /* HeaderView.m in Sources */,
+				E33E2728256D01EF004FD0E5 /* ActivityCell.m in Sources */,
+				E33E2725256D019E004FD0E5 /* HotCourseCell.m in Sources */,
+				E33E2718256CFDBE004FD0E5 /* ViewControllerVM.m in Sources */,
 				E33E26E9256CEA63004FD0E5 /* ViewController.m in Sources */,
+				E33E2722256D0166004FD0E5 /* FunctionItemCell.m in Sources */,
+				E33E272B256D0206004FD0E5 /* NewsCell.m in Sources */,
 				E33E26E3256CEA63004FD0E5 /* AppDelegate.m in Sources */,
 				E33E26F4256CEA64004FD0E5 /* main.m in Sources */,
 				E33E26E6256CEA63004FD0E5 /* SceneDelegate.m in Sources */,
+				E33E271F256D010C004FD0E5 /* FunctionCell.m in Sources */,
+				E33E271C256D00E0004FD0E5 /* BannerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
